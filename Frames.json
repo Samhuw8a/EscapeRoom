@@ -1,0 +1,106 @@
+{
+    "0": {
+        "text": "Raus hier!\nLiebe Leser*innen\n\nDas ist ein kurzes, digitales Spielbuch.\n\nZum Spielen wird ein A4-Blatt (4mm kariert) und Schreibzeug ben\u00f6tigt. Das Buch spricht die Spieler*innen mit \"du\" an.\n\nSpielb\u00fccher in gedruckter Form waren in den 1980er-Jahren popul\u00e4r. Sie erlaubten es, interaktive Geschichten zu erz\u00e4hlen: nach jedem Abschnitt konnten die Leser*innen eine Entscheidung treffen; je nach Entscheidung ging die Geschichte dann bei einem anderen Abschnitt weiter.\n\nComputerspiele wurden nach der gleichen Idee entwickelt: die Spieler*innen konnten nach einem Abschnitt der Geschichte eine Entscheidung treffen und der Computer zeigte daraufhin die passende Fortsetzung der Geschichte an.\n\nDas vorliegende Spielbuch wurde extra f\u00fcr den Informatikunterricht ander Kantonsschule Reussb\u00fchl entwickelt und wird im Rahmen des Praktikums im obligatorischen Fach Informatik als Computerspiel programmiert.\n\nViel Spass!\nTimy Liniger \n",
+        "input": false,
+        "code": false,
+        "next": 1
+    },
+    "1": {
+        "text": "Es ist stockdunkel und riecht nach Keller. In der Stille ist das leise Rauschen einer L\u00fcftungsanlage zu h\u00f6ren.\n\nDeine Ausr\u00fcstung umfasst eine LED-Taschenlampe, einen Kompass und eine Trinkflasche, die sich noch recht voll anf\u00fchlt. Ob der Strom oder das Wasser zuerst ausgeht, wird sich zeigen. Am besten ist, du findest schnell einen Weg raus hier!\n\nEin Schluck Wasser hilft ein wenig gegen den Geschmack von Staub auf der Zunge. Dann schaltest du die Taschenlampe ein und blickst dich um: Du befindest dich in einem quadratischen Raum aus billigen Betonelementen. Vor dir auf dem kahlen Betonboden steht ein Stahlkoffer, an dem ein gelber Zettel klebt. In einer Ecke liegen ein Blatt Papier und ein Bleistift.\nWillst du: \n\n1: Zuerst zum Blatt Papier gehen?\n2: Zuerstden Koffer untersuchen? \n",
+        "input": 2,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 11,
+            "if_2": 22
+        }
+    },
+    "11": {
+        "text": "Das Blatt ist im Format A4 (4 mm kariert). Es ist leer.\nDu packst Papier und Bleistift ein, vielleicht sind sie ja noch n\u00fctzlich. Dann wendest du dich dem Koffer zu.\n",
+        "input": false,
+        "code": false,
+        "next": 12
+    },
+    "12": {
+        "text": "Der Stahlkoffer ist mit einem dreistelligen Zahlenschloss gesichert. Auf dem gelben Zettel steht:\n\nErkunde den Keller, um den Code zum Koffer zu finden; dann kannst du den Weg in die Freiheit \u00f6ffnen. Zeichne eine genaue Karte des Kellers, sie wird entscheidend sein f\u00fcr deinen Erfolg!\n\nDie Karte passt im Massstab 1 H\u00e4uschen pro Meter gut auf ein A4-Blatt (4 mm kariert), wenn du das Blatt im Hochformat verwendest und deinen Startraum am unteren Blattrand in der Mitte einzeichnest.\"\n\nDu betrachtest den Raum noch einmal genau. Laut deinem Kompass verlaufen die W\u00e4nde genau in Nord-S\u00fcd-Richtung bzw. Ost-West-Richtung. Sie sind aus Fertigbauelementen zusammengef\u00fcgt. Sie sind zwar sehr schmal, aber wirken extrem solide. Der Raum, in dem du dich befindest istexakt vier mal vier Meter gross. In der Mitte der Nordwand befindet sich eine T\u00fcr, in die auf Kopfh\u00f6he eine Glasscheibe eingesetzt ist.\n\nDu zeichnest den Raum auf dein Blatt Papier. Dann \u00f6ffnest du die T\u00fcr und verl\u00e4sst den Raum. \n",
+        "input": false,
+        "code": false,
+        "next": 31
+    },
+    "31": {
+        "text": "Du befindest dich in einem Korridor, der von West nach Ost verl\u00e4uft. Er hat eine L\u00e4nge von 20 Meter und ist 4 Meter breit.\n\nIm S\u00fcden gibt es westlich von der T\u00fcr, durch die du gekommen bist, eine weitere T\u00fcr und \u00f6stlich drei weitere T\u00fcren. Sie sind alle verschlossen, aber du kannst durch die Glasscheiben hineinblicken. Du erkennst, dass hinter jeder T\u00fcr ein Raum liegt, der identisch mit deinem Startraum ist. Die Ostwand des \u00f6stlichsten Raums ist die gleiche Wand wie die Ostwand des Korridors. Auch die Westwand des westlichsten Raums und die Westwand des Korridors sind identisch.\n\nIm Norden gibt es genau gegen\u00fcber der T\u00fcr zu deinem Startraum und westlich davon je einen weiteren identischen R\u00e4um. Auch diese haben je eine T\u00fcre in der Wandmitte mit einer lasscheibe - leider sind auch sie verschlossen.\n\nIn der Mitte der Nordwand hat der Korridor eine weitere T\u00fcr, die nicht verschlossen ist. Also gehst du da weiter.G\n",
+        "input": false,
+        "code": false,
+        "next": 32
+    },
+    "32": {
+        "text": "Du hast einen weiteren Korridor erreicht. Dieser verl\u00e4uft von S\u00fcden nach Norden und ist ebenfalls 20 Meter lang und 4 Meter breit. Du betrittst den Korridor durch die einzige T\u00fcr in der S\u00fcdwand.\n\nSofort f\u00e4llt dein Blick auf das Schild, das genau in der Mitte der Ostwand angebracht ist. Ausgang, steht da. Du eilst hin, musst aber leider feststellen, dass die schwere Stahlt\u00fcr, die ins Panzerglas eingelassen ist, verschlossen ist.\n\nDurch das dicke Panzerglas kannst du hinter der Stahlt\u00fcr ein Treppenhaus erkennen: Es ist quadratisch (4 Meter auf 4 Meter, das Ausgang Schild befindet sich genau in der Mitte der 4 Meter Panzerglaswand, die das Treppenhaus vom Korridor trennen). Die Treppe f\u00fchrt nach oben, beginnt in Richtung Osten der S\u00fcdwand des Treppenauses entlang und ist 2 Meter breit. Nach 2 Meter in Richtung Osten gibt es einen 2 Meter breiten Zwischenboden, der die \u00f6stliche H\u00e4lfte des Treppenhauses ausf\u00fcllt. Von diesem Zwischenboden aus geht die Treppe dann der Nordwand des Treppenhauses entlang weiter nach oben, diesmal in westliche Richtung.\n\nDu entdeckst im Korridor noch zwei weitere T\u00fcren, die in dir unbekannte R\u00e4ume f\u00fchren: eine f\u00fchrt 4 Meter vom s\u00fcdlichen Ende des Korridors entfernt nach Osten, die andere f\u00fchrt 4 Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen.\nWillst du: \n1: Zuerst nach Osten gehen?\n2: Zuerst nach Westen gehen?\n\n",
+        "input": 2,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 101,
+            "if_2": 201
+        }
+    },
+    "101": {
+        "text": "Du \u00f6ffnest die T\u00fcr in Richtung Osten und erreichst einen Raum, der 8 Meter auf 8 Meter misst. Die T\u00fcr, durch die du gekommen bist, befindet sich in der Westwand, 4 Meter von der S\u00fcdwand entfernt. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest nur noch ein paar leere Tische.\\n\\n2 Meter von der Ostwand entfernt gibt es eine T\u00fcr in der Nordwand. Du gehst dort weiter.\\n",
+        "input": false,
+        "code": false,
+        "next": 102
+    },
+    "102": {
+        "text": "Du erreichst einen rechteckigen Raum, der sich 8 Meter nach Norden erstreckt und 4 Meter breit ist. Die Ostwand dieses Raumes ist die Fortsetzung der Ostwand im Raum zuvor.\\n\\nHier ist das Ger\u00e4usch der L\u00fcftung recht laut und du entdeckst in der Mitte der Ostwand einen L\u00fcftungsschacht. Neugierig leuchtest du den L\u00fcftungsschacht aus. Hinter dem Gitter erkennst du eine Nachricht auf einem gelben Zettel, der auf der Innenseite des L\u00fcftungsschachts festgeklebt ist. Vom Blickwinkel her kannst du die Nachricht nicht lesen und das Gitter kannst du ohne Schraubenzieher auch nicht entfernen.\\n\\nAm Nordende des Raums gibt es eine T\u00fcr, die weiter nach Norden f\u00fchrt. Du entscheidest dich, den Keller einmal in diese Richtung weiter zu erkunden.\\n",
+        "input": false,
+        "code": false,
+        "next": 103
+    },
+    "103": {
+        "text": "Dieser Raum erstreckt sich 8 Meter nach Westen und 4 Meter nach Norden. Die Ostwand ist identisch mit der Ostwand des vorherigen Raums.\\n\\nHier gibt es nichts zu sehen ausser den zwei T\u00fcren in der S\u00fcdwand: Du hast den Raum durch die T\u00fcr betreten, die 2 Meter von der Ostwand entfernt ist. Deshalb gehst du durch die T\u00fcr weiter, die 2 Meter von der Westwand entfernt ist.\\n",
+        "input": false,
+        "code": false,
+        "next": 104
+    },
+    "104": {
+        "text": "Dieser Raum misst 4 Meter auf 4 Meter und ist eine Sackgasse: es gibt nur die eine T\u00fcr in der Nordwand, durch die du den Raum betreten hast.\\n\\nAn der S\u00fcdwand h\u00e4ngt ein gelber Zettel. Er ist mit einem Taschenmesser befestigt, das mit der Klinge in die Ritze zwischen den zwei westlichsten Wandelementen der S\u00fcdwand geklemmt wurde.\\n\\nDu packst das Taschenmesser ein. Es verf\u00fcgt \u00fcber einen Schraubenzieher!\\n\\nDann wendest du dich der Notiz zu:\\n\\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\"\\n\\nDa du dich gut mit der griechischen Mythologie auskennst, weisst du nat\u00fcrlich sofort, was der Code ist. Den erw\u00e4hnten Tresor hast du im Keller allerdings noch nicht gesehen.\\nWillst du: \\n1: Zuerstden Tresor suchen?\\n2: Zuerst mit deinem neuen Schraubenzieher die Notiz aus dem L\u00fcftungsschacht holen? \\n",
+        "input": 2,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 111,
+            "if_2": 161
+        }
+    },
+    "111": {
+        "text": "Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\\n\\nDu erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\\n\\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\\n",
+        "input": false,
+        "code": true,
+        "next": 113,
+        "is_code": "423"
+    },
+    "113": {
+        "text": "Du stellst den Code ein und versuchst, die Tresort\u00fcr zu \u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\\n\\nDu hebst den Zettel auf und liest:\\n\\n\"The answer to life, the universe and everything.\\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\\n\\nDu bist nicht so sicher, was du damit anfangen sollst. Deshalb entscheidest du dich, noch die Notiz im L\u00fcftungsschacht zu holen.\\n",
+        "input": false,
+        "code": false,
+        "next": 114
+    },
+    "161": {
+        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\\n\\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\\n\\n1. Wie oft die Ziffer 4 vorkommt.\\n2. Wie oft die Ziffer 7 vorkommt.\\n3. Wie oft die Ziffer 3 vorkommt.\"\\n\\nEs ist definitiv an der Zeit, diesen Tresor zu suchen! Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\\n",
+        "input": false,
+        "code": false,
+        "next": 162
+    },
+    "162": {
+        "text": "Du erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\\n\\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\\n",
+        "input": false,
+        "code": false,
+        "next": 163
+    },
+    "114": {
+        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\\n\\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\\n\\n1. Wie oft die Ziffer 4 vorkommt.\\n2. Wie oft die Ziffer 7 vorkommt.  3. Wie oft die Ziffer 3 vorkommt.\"\\n\\nDu nimmst die Notiz aus dem Tresor hervor:\\n\\n\"The answer to life, the universe and everything.\\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\\n\\nEasy, die erste genannte Zahl kennst du, weil du viel gelesen hast; und den Tresor hast du mit",
+        "input": false,
+        "code": true,
+        "next": 301,
+        "is_code": "201"
+    }
+}
