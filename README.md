@@ -2,7 +2,7 @@
 
 ## Einleitung:
 Dies ist ein Text basiertes Game welches in
-python geschrieben wurde und die Frames im Json format spweichert.
+python geschrieben wurde und die Frames im Json format speichert.
 
 
 ## Die Struktur:
