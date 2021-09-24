@@ -1,4 +1,4 @@
-# **Informatik projekt: EscapeRoom**
+# **Informatik Projekt: EscapeRoom**
 
 # Einleitung:
 Dies ist ein Text basiertes Game welches in python geschrieben wurde und die Frames im Json format speichert.
