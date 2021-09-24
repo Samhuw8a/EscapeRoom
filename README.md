@@ -78,10 +78,10 @@ Die Json datei ist so gestaltet:
         "text":"Der Text des Frames",
         "input": false, //oder eine die anzahl der Inputs\\
         "code": false, // bool der angibt ob es einen Code gibt
-        "next": Der Index des nächsten Frames (int),
+        "next": "n", // Index des nächsten Frames
         "is_code": "Der Code",//Der Code des Frames (existiert nur wenn code != false)
         "ifs":{
-            "if_n":index // wenn die n te wahl ausgewält wird
+            "if_n":"index" // wenn die n te wahl ausgewält wird
                         //wird der Frame "index" als nächster gesezt.
             // existiert nur wenn input != false
         }
