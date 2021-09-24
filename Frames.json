@@ -196,7 +196,7 @@
         "is_code": "423"
     },
     "164": {
-        "text": "Du stellst den Code ein und versuchst, den Stahlkoffer zu \u00f6ffnen. Es gelingt!\r\n\r\nIm Koffer liegt etwas, was wie ein aufgewickeltes St\u00fcck einer Schnur aus Plastik aussieht, mit einer Art Stoppuhr am Ende. Darunter liegt ein gelber Zettel mit einer Erkl\u00e4rung:\r\n\r\n\"Diese Sprengschnur kann verwendet werden, um ein Loch in eines der Betonwandelemente zu sprengen. Sie haftet selbst\u00e4ndig an der Wand, du musst sie nur an der gew\u00fcnschten Stelle in Form eines geschlossenen Kreises anbringen.\r\n\r\nZ\u00fcnden kannst du die Sprengschnur, indem du einen Countdown auf der Uhr einstellst. W\u00e4hle ausreichend Zeit, damit du in einem Nachbarraum in Deckung gehen kannst, halte die Ohren zu und den Mund offen!\r\n\r\nWarnung: Die Sprengkraft dieser Sprengschnur reicht nur f\u00fcr die Betonwandelemente aus. Die Stahlt\u00fcr und das Panzerglas, die das Treppenhaus zum Korridor hin begrenzen, sind zu stabil f\u00fcr diese kleine Menge Sprengstoff!\"\r\n\r\nDu gehst zur\u00fcck in den Korridor, um noch einmal das Treppenhaus zu betrachten.",
+        "text": "Du stellst den Code ein und versuchst, die Tresort\u00fcr zu \u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\r\n\r\nDu hebst den Zettel auf und liest:\r\n\r\n\"The answer to life, the universe and everything.\r\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\r\n\r\nDu nimmst noch einmal die Notiz hervor, die du im L\u00fcftungsschacht gefunden hast:\r\n\r\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\r\n\r\n1. Wie oft die Ziffer 4 vorkommt.\r\n2. Wie oft die Ziffer 7 vorkommt.\r\n3. Wie oft die Ziffer 3 vorkommt.\"\r\n\r\nEasy, die erste genannte Zahl kennst du, weil du viel gelesen hast und den Tresor hast du ja gerade eben mit dem Code 423 ge\u00f6ffnet.\r\nGib deinen Code f\u00fcr den Stahlkoffer ein: *",
         "input": false,
         "code": true,
         "next": 301,
@@ -221,9 +221,34 @@
         "next": 204
     },
     "204": {
-        "text": "204",
+        "text": "Du erreichst einen rechteckigen Raum, der sich 8 Meter nach Norden erstreckt und 4 Meter breit ist. Die Ostwand dieses Raumes ist die Fortsetzung der Ostwand im Raum zuvor.\r\n\r\nHier ist das Ger\u00e4usch der L\u00fcftung recht laut und du entdeckst in der Mitte der Ostwand einen L\u00fcftungsschacht. Neugierig leuchtest du den L\u00fcftungsschacht aus. Hinter dem Gitter erkennst du eine Nachricht auf einem gelben Zettel, der auf der Innenseite des L\u00fcftungsschachts festgeklebt ist. Vom Blickwinkel her kannst du die Nachricht nicht lesen und das Gitter kannst du ohne Schraubenzieher auch nicht entfernen.\r\n\r\nAm Nordende des Raums gibt es eine T\u00fcr, die weiter nach Norden f\u00fchrt. Das ist die einzige T\u00fcr, die du noch nicht versucht hast, also gehst du da weiter.",
         "input": false,
         "code": false,
         "next": 205
+    },
+    "205": {
+        "text": "Dieser Raum erstreckt sich 8 Meter nach Westen und 4 Meter nach Norden. Die Ostwand ist identisch mit der Ostwand des vorherigen Raums.\r\n\r\nHier gibt es nichts zu sehen ausser den zwei T\u00fcren in der S\u00fcdwand: Du hast den Raum durch die T\u00fcr betreten, die 2 Meter von der Ostwand entfernt ist. Deshalb gehst du durch die T\u00fcr weiter, die 2 Meter von der Westwand entfernt ist.",
+        "input": false,
+        "code": false,
+        "next": 206
+    },
+    "206": {
+        "text": "Dieser Raum misst 4 Meter auf 4 Meter und ist eine Sackgasse: es gibt nur die eine T\u00fcr in der Nordwand, durch die du den Raum betreten hast.\r\n\r\nAn der S\u00fcdwand h\u00e4ngt ein gelber Zettel. Er ist mit einem Taschenmesser befestigt, das mit der Klinge in die Ritze zwischen den zwei westlichsten Wandelementen der S\u00fcdwand geklemmt wurde.\r\n\r\nDu packst das Taschenmesser ein. Es verf\u00fcgt \u00fcber einen Schraubenzieher!\r\n\r\nDann wendest du dich der Notiz zu:\r\n\r\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\"\r\n\r\nDa du dich gut mit der griechischen Mythologie auskennst, weisst du nat\u00fcrlich sofort, was der Code ist. Also auf zum Tresor!",
+        "input": false,
+        "code": false,
+        "next": 207
+    },
+    "207": {
+        "text": "Weil es auf dem Weg liegt, schraubst du noch schnell den L\u00fcftungsschacht mit dem frisch gefundenen Schraubenzieher aus dem Taschenmesser auf. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\r\n\r\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\r\n\r\n1. Wie oft die Ziffer 4 vorkommt.\r\n2. Wie oft die Ziffer 7 vorkommt.\r\n3. Wie oft die Ziffer 3 vorkommt.\"\r\n\r\nOK, das wird vermutlich schon verst\u00e4ndlich sein, sobald du den Tresor ge\u00f6ffnet hast.",
+        "input": false,
+        "code": false,
+        "next": 208
+    },
+    "208": {
+        "text": "Du gehst zur\u00fcck in den Raum mit dem Tresor. Dort angekommen betrachtest du den schweren Tresor. Zur Sicherheit nimmst du die Notiz, die mit dem Taschenmesser an der Wand befestigt war, noch einmal zur Hand:\r\n\r\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\"\r\nGib deinen Code f\u00fcr den Tresor hier ein:",
+        "input": false,
+        "code": true,
+        "next": 209,
+        "is_code": "423"
     }
 }
