@@ -112,7 +112,7 @@ der Handler klasse aufgerufen die dann den Endscrenn zeigt und das spiel beendet
 
 
 
-# Meine Gedanken
+# Meine Gedanken:
 
 ## Was ich anderst machen würde:
 - ### IO und Logik besser trennen.
