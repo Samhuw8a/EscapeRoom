@@ -1,10 +1,9 @@
 # **Informatik projekt: EscapeRoom**
 
 # Einleitung:
-Dies ist ein Text basiertes Game welches in
-python geschrieben wurde und die Frames im Json format speichert.
-
-
+Dies ist ein Text basiertes Game welches in python geschrieben wurde und die Frames im Json format speichert.
+Dieses Projekt ist ein Projekt welches wir im Informatik geschrieben haben.
+In diesem README werde ich die Struktur des Programmes zeigen.
 # Die Struktur:
 Als ertste habe ich mich mit der Struktur des Programms auseinander
 gesetzt. Ich habe das Projekt in Drei Teile Aufgeteilt. 
@@ -111,3 +110,10 @@ um Frames.json zu laden
 - am ende des main loop wird die end_screen method
 der Handler klasse aufgerufen die dann den Endscrenn zeigt und das spiel beendet.
 
+
+
+# Meine Gedanken
+
+## Was ich anderst machen würde:
+> IO und Logik besser trennen.
+wenn ich das Projekt 
