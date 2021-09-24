@@ -1,11 +1,11 @@
-# Informatik projekt: EscapeRoom
+# **Informatik projekt: EscapeRoom**
 
-## Einleitung:
+# Einleitung:
 Dies ist ein Text basiertes Game welches in
 python geschrieben wurde und die Frames im Json format speichert.
 
 
-## Die Struktur:
+# Die Struktur:
 Als ertste habe ich mich mit der Struktur des Programms auseinander
 gesetzt. Ich habe das Projekt in Drei Teile Aufgeteilt. 
 > [Input und Output](front_end.py)
@@ -14,7 +14,7 @@ gesetzt. Ich habe das Projekt in Drei Teile Aufgeteilt.
 
 > [Storage](Frames.json)
 
-#### Front_end:
+## Front_end:
 Das Projekt hat ein Front_end das die Frames formatiert auf den Bildschirm
 bringt. Die datei hat eine Klasse Render() die beinhaltet:
 
@@ -34,7 +34,7 @@ class Render():
         #Printet den Frame
 ```
 
-#### Back_end:
+## Back_end:
 Das die Render klasse die richten Frames zum rendern bekommt,
 braucht das game einen Frame_Handler.
 Dieser bekomt einen Render klasse und einen Datei mit den Frames in diesem fall Frames.json
@@ -61,7 +61,7 @@ class Handler():
         self.loadframe(self.nextframe)
 ```
 
-#### Frames.json
+## Frames.json
 Die Frames werden Roh in der Frames.json datei gespeichert.
 Jeder Frame hat:
 - einen Index
@@ -90,15 +90,15 @@ Die Json datei ist so gestaltet:
 }
 ```
 
-#### Zusammenfassung:
+## Zusammenfassung:
 | Teile:| funktion:|
 |---|---|
-|main.py| beinhaltet den Main-loop|
-|back_end.py|verantwortlich für die Logik des Programm|
-|front_end.py|verantwortlich für den output und den User input|
-|Frames.json|speichert die Frames mit allen informationen|
+|[main.py](main.py)| beinhaltet den Main-loop|
+|[back_end.py](back_end.py)|verantwortlich für die Logik des Programm|
+|[front_end.py](front_end.py)|verantwortlich für den output und den User input|
+|[Frames.json](Frames.json)|speichert die Frames mit allen informationen|
 
-## Der Game ablauf:
+# Der Game ablauf:
 ### main:
 In der main datei werden Render Klasse und Handle Klasse instanziert.
 > **setup**:
