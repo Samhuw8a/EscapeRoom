@@ -44,25 +44,25 @@
         }
     },
     "101": {
-        "text": "Du \u00f6ffnest die T\u00fcr in Richtung Osten und erreichst einen Raum, der 8 Meter auf 8 Meter misst. Die T\u00fcr, durch die du gekommen bist, befindet sich in der Westwand, 4 Meter von der S\u00fcdwand entfernt. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest nur noch ein paar leere Tische.\\n\\n2 Meter von der Ostwand entfernt gibt es eine T\u00fcr in der Nordwand. Du gehst dort weiter.\\n",
+        "text": "Du \u00f6ffnest die T\u00fcr in Richtung Osten und erreichst einen Raum, der 8 Meter auf 8 Meter misst. Die T\u00fcr, durch die du gekommen bist, befindet sich in der Westwand, 4 Meter von der S\u00fcdwand entfernt. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest nur noch ein paar leere Tische.\n\n2 Meter von der Ostwand entfernt gibt es eine T\u00fcr in der Nordwand. Du gehst dort weiter.\n",
         "input": false,
         "code": false,
         "next": 102
     },
     "102": {
-        "text": "Du erreichst einen rechteckigen Raum, der sich 8 Meter nach Norden erstreckt und 4 Meter breit ist. Die Ostwand dieses Raumes ist die Fortsetzung der Ostwand im Raum zuvor.\\n\\nHier ist das Ger\u00e4usch der L\u00fcftung recht laut und du entdeckst in der Mitte der Ostwand einen L\u00fcftungsschacht. Neugierig leuchtest du den L\u00fcftungsschacht aus. Hinter dem Gitter erkennst du eine Nachricht auf einem gelben Zettel, der auf der Innenseite des L\u00fcftungsschachts festgeklebt ist. Vom Blickwinkel her kannst du die Nachricht nicht lesen und das Gitter kannst du ohne Schraubenzieher auch nicht entfernen.\\n\\nAm Nordende des Raums gibt es eine T\u00fcr, die weiter nach Norden f\u00fchrt. Du entscheidest dich, den Keller einmal in diese Richtung weiter zu erkunden.\\n",
+        "text": "Du erreichst einen rechteckigen Raum, der sich 8 Meter nach Norden erstreckt und 4 Meter breit ist. Die Ostwand dieses Raumes ist die Fortsetzung der Ostwand im Raum zuvor.\n\nHier ist das Ger\u00e4usch der L\u00fcftung recht laut und du entdeckst in der Mitte der Ostwand einen L\u00fcftungsschacht. Neugierig leuchtest du den L\u00fcftungsschacht aus. Hinter dem Gitter erkennst du eine Nachricht auf einem gelben Zettel, der auf der Innenseite des L\u00fcftungsschachts festgeklebt ist. Vom Blickwinkel her kannst du die Nachricht nicht lesen und das Gitter kannst du ohne Schraubenzieher auch nicht entfernen.\n\nAm Nordende des Raums gibt es eine T\u00fcr, die weiter nach Norden f\u00fchrt. Du entscheidest dich, den Keller einmal in diese Richtung weiter zu erkunden.\n",
         "input": false,
         "code": false,
         "next": 103
     },
     "103": {
-        "text": "Dieser Raum erstreckt sich 8 Meter nach Westen und 4 Meter nach Norden. Die Ostwand ist identisch mit der Ostwand des vorherigen Raums.\\n\\nHier gibt es nichts zu sehen ausser den zwei T\u00fcren in der S\u00fcdwand: Du hast den Raum durch die T\u00fcr betreten, die 2 Meter von der Ostwand entfernt ist. Deshalb gehst du durch die T\u00fcr weiter, die 2 Meter von der Westwand entfernt ist.\\n",
+        "text": "Dieser Raum erstreckt sich 8 Meter nach Westen und 4 Meter nach Norden. Die Ostwand ist identisch mit der Ostwand des vorherigen Raums.\n\nHier gibt es nichts zu sehen ausser den zwei T\u00fcren in der S\u00fcdwand: Du hast den Raum durch die T\u00fcr betreten, die 2 Meter von der Ostwand entfernt ist. Deshalb gehst du durch die T\u00fcr weiter, die 2 Meter von der Westwand entfernt ist.\n",
         "input": false,
         "code": false,
         "next": 104
     },
     "104": {
-        "text": "Dieser Raum misst 4 Meter auf 4 Meter und ist eine Sackgasse: es gibt nur die eine T\u00fcr in der Nordwand, durch die du den Raum betreten hast.\\n\\nAn der S\u00fcdwand h\u00e4ngt ein gelber Zettel. Er ist mit einem Taschenmesser befestigt, das mit der Klinge in die Ritze zwischen den zwei westlichsten Wandelementen der S\u00fcdwand geklemmt wurde.\\n\\nDu packst das Taschenmesser ein. Es verf\u00fcgt \u00fcber einen Schraubenzieher!\\n\\nDann wendest du dich der Notiz zu:\\n\\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\"\\n\\nDa du dich gut mit der griechischen Mythologie auskennst, weisst du nat\u00fcrlich sofort, was der Code ist. Den erw\u00e4hnten Tresor hast du im Keller allerdings noch nicht gesehen.\\nWillst du: \\n1: Zuerstden Tresor suchen?\\n2: Zuerst mit deinem neuen Schraubenzieher die Notiz aus dem L\u00fcftungsschacht holen? \\n",
+        "text": "Dieser Raum misst 4 Meter auf 4 Meter und ist eine Sackgasse: es gibt nur die eine T\u00fcr in der Nordwand, durch die du den Raum betreten hast.\n\nAn der S\u00fcdwand h\u00e4ngt ein gelber Zettel. Er ist mit einem Taschenmesser befestigt, das mit der Klinge in die Ritze zwischen den zwei westlichsten Wandelementen der S\u00fcdwand geklemmt wurde.\n\nDu packst das Taschenmesser ein. Es verf\u00fcgt \u00fcber einen Schraubenzieher!\n\nDann wendest du dich der Notiz zu:\n\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\"\n\nDa du dich gut mit der griechischen Mythologie auskennst, weisst du nat\u00fcrlich sofort, was der Code ist. Den erw\u00e4hnten Tresor hast du im Keller allerdings noch nicht gesehen.\nWillst du: \n1: Zuerstden Tresor suchen?\n2: Zuerst mit deinem neuen Schraubenzieher die Notiz aus dem L\u00fcftungsschacht holen? \n",
         "input": 2,
         "code": false,
         "next": null,
@@ -72,35 +72,158 @@
         }
     },
     "111": {
-        "text": "Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\\n\\nDu erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\\n\\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\\n",
+        "text": "Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\n\nDu erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\n\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\n",
         "input": false,
         "code": true,
         "next": 113,
         "is_code": "423"
     },
     "113": {
-        "text": "Du stellst den Code ein und versuchst, die Tresort\u00fcr zu \u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\\n\\nDu hebst den Zettel auf und liest:\\n\\n\"The answer to life, the universe and everything.\\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\\n\\nDu bist nicht so sicher, was du damit anfangen sollst. Deshalb entscheidest du dich, noch die Notiz im L\u00fcftungsschacht zu holen.\\n",
+        "text": "Du stellst den Code ein und versuchst, die Tresort\u00fcr zu \u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\n\nDu hebst den Zettel auf und liest:\n\n\"The answer to life, the universe and everything.\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\n\nDu bist nicht so sicher, was du damit anfangen sollst. Deshalb entscheidest du dich, noch die Notiz im L\u00fcftungsschacht zu holen.\n",
         "input": false,
         "code": false,
         "next": 114
     },
     "161": {
-        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\\n\\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\\n\\n1. Wie oft die Ziffer 4 vorkommt.\\n2. Wie oft die Ziffer 7 vorkommt.\\n3. Wie oft die Ziffer 3 vorkommt.\"\\n\\nEs ist definitiv an der Zeit, diesen Tresor zu suchen! Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\\n",
+        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\n\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\n\n1. Wie oft die Ziffer 4 vorkommt.\n2. Wie oft die Ziffer 7 vorkommt.\n3. Wie oft die Ziffer 3 vorkommt.\"\n\nEs ist definitiv an der Zeit, diesen Tresor zu suchen! Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\n",
         "input": false,
         "code": false,
         "next": 162
     },
     "162": {
-        "text": "Du erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\\n\\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\\n",
+        "text": "Du erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\n\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\n",
         "input": false,
         "code": false,
         "next": 163
     },
     "114": {
-        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\\n\\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\\n\\n1. Wie oft die Ziffer 4 vorkommt.\\n2. Wie oft die Ziffer 7 vorkommt.  3. Wie oft die Ziffer 3 vorkommt.\"\\n\\nDu nimmst die Notiz aus dem Tresor hervor:\\n\\n\"The answer to life, the universe and everything.\\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\\n\\nEasy, die erste genannte Zahl kennst du, weil du viel gelesen hast; und den Tresor hast du mit",
+        "text": "Du gehst zur\u00fcck in den Raum mit dem L\u00fcftungsschacht und schraubst das Gitter vor dem L\u00fcftungsschacht weg. Er ist viel zu klein, um als Ausweg aus dem Keller in Frage zu kommen. Aber vielleicht beinhaltet die Notiz auf dem gelben Zettel ja einen n\u00fctzlichen Hinweis:\n\n\"Um den Code f\u00fcr den Koffer zu finden, z\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\n\n1. Wie oft die Ziffer 4 vorkommt.\n2. Wie oft die Ziffer 7 vorkommt.  3. Wie oft die Ziffer 3 vorkommt.\"\n\nDu nimmst die Notiz aus dem Tresor hervor:\n\n\"The answer to life, the universe and everything.\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\n\nEasy, die erste genannte Zahl kennst du, weil du viel gelesen hast; und den Tresor hast du mit",
         "input": false,
         "code": true,
         "next": 301,
         "is_code": "201"
+    },
+    "301": {
+        "text": "Du stellst den Code ein und versuchst, den Stahlkoffer zu \u00f6ffnen. Es gelingt!\r\n\r\nIm Koffer liegt etwas, was wie ein aufgewickeltes St\u00fcck einer Schnur aus Plastik aussieht, mit einer Art Stoppuhr am Ende. Darunter liegt ein gelber Zettel mit einer Erkl\u00e4rung:\r\n\r\n\"Diese Sprengschnur kann verwendet werden, um ein Loch in eines der Betonwandelemente zu sprengen. Sie haftet selbst\u00e4ndig an der Wand, du musst sie nur an der gew\u00fcnschten Stelle in Form eines geschlossenen Kreises anbringen.\r\n\r\nZ\u00fcnden kannst du die Sprengschnur, indem du einen Countdown auf der Uhr einstellst. W\u00e4hle ausreichend Zeit, damit du in einem Nachbarraum in Deckung gehen kannst, halte die Ohren zu und den Mund offen!\r\n\r\nWarnung: Die Sprengkraft dieser Sprengschnur reicht nur f\u00fcr die Betonwandelemente aus. Die Stahlt\u00fcr und das Panzerglas, die das Treppenhaus zum Korridor hin begrenzen, sind zu stabil f\u00fcr diese kleine Menge Sprengstoff!\"\r\n\r\nDu gehst zur\u00fcck in den Korridor, um noch einmal das Treppenhaus zu betrachten.",
+        "input": false,
+        "code": false,
+        "next": 302
+    },
+    "302": {
+        "text": "Exakt in der Mitte der Ostwand im Korridor, der von S\u00fcden nach Norden verl\u00e4uft, h\u00e4ngt das Ausgang Schild an der Wand. Je 2 Meter in n\u00f6rdliche und s\u00fcdliche Richtung besteht die Ostwand aus Panzerglas statt der \u00fcblichen Betonelemente. Im Panzerglas eingelassen ist die massive Stahlt\u00fcr.\n\nDas Treppenhaus ist quadratisch (4 Meter auf 4 Meter, das Ausgang Schild befindet sich genau in der Mitte der 4 Meter Panzerglaswand, die das Treppenhaus vom Korridor trennen). Die Treppe f\u00fchrt nach oben, beginnt in Richtung Osten der S\u00fcdwand des Treppenhauses entlang und ist 2 Meterbreit. Nach 2 Meter in Richtung Osten gibt es einen 2 Meter breiten Zwischenboden, der die \u00f6stliche H\u00e4lfte des Treppenhauses ausf\u00fcllt. Von diesem Zwischenboden aus geht die Treppe dann der Nordwand des Treppenhauses entlang weiter nach oben, diesmal in westliche Richtung.\n\nWegen dem Zwischenboden scheint die \u00f6stliche H\u00e4lfte des Treppenhauses bis auf eine H\u00f6he von mindestens 1.5 Meter vollst\u00e4ndig mit Beton gef\u00fcllt zu sein. Auch die Unterseite der Treppe der S\u00fcdwand entlang scheint mit Beton aufgef\u00fcllt zu sein. In der westlichen H\u00e4lfte des Treppenhauses bestehen die Nord- und S\u00fcdwand scheinbar aus den \u00fcblichen Betonelementen.\n\nDu \u00fcberlegst, welche Wand du sprengen sollst. Zeit, diesen Keller zu verlassen!\nIn welchem Raum befindet sich die Wand, die du sprengen willst? \n1. Im Startraum.\n2. Im West-Ost-Korridor.\n3. Im S\u00fcd-Nord-Korridor.\n4.Im B\u00fcro mit den leeren Tischen.\n5. Im B\u00fcro mit der Schreibmaschine.\n6. Im B\u00fcro mit dem Tresor.\n7. Im Raum mit dem L\u00fcftungsschacht.\n8. Im Raum, der 2 T\u00fcren in Richtung S\u00fcden hat.\n:. Im Raum, in dem das Taschenmesser steckte.\n",
+        "input": 9,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 311,
+            "if_2": 311,
+            "if_3": 311,
+            "if_4": 311,
+            "if_5": 311,
+            "if_6": 311,
+            "if_7": 311,
+            "if_8": 311,
+            "if_9": 321
+        }
+    },
+    "311": {
+        "text": "In welcher Wand befindet sich das Wandelement, in das du das Loch sprengen willst?\r\n\r\n1. Nordwand\r\n2. Ostwand\r\n3. S\u00fcdwand\r\n4. Westwand",
+        "input": 4,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 312,
+            "if_2": 312,
+            "if_3": 312,
+            "if_4": 312
+        }
+    },
+    "312": {
+        "text": "Wandelemente sind 1 Meter breit. Gib die Nummer des Wandelements an (vom linken Rand der ausgew\u00e4hlten Wand gez\u00e4hlt), in das du das Loch sprengen willst.",
+        "input": 4,
+        "code": true,
+        "next": 313,
+        "is_code": "*"
+    },
+    "313": {
+        "text": "Du gehst in den entsprechenden Raum und bringst die Sprengschnur auf dem ausgew\u00e4hlten Wandelement an. Du stellst die Stoppuhr auf 60 Sekunden, gehst gem\u00fctlich in den Nachbarraum, h\u00e4ltst die Ohren zu und den Mund offen und wartest. \r\n\r\nPl\u00f6tzlich h\u00f6rst du einen dumpfen Knall und die Luft f\u00fcllt sich mit Staub. Du hustest kurz und wartest ein wenig, damit sich der Staub legt und du im Schein deiner Taschenlampe das Resultat begutachten kannst.\r\n\r\nNein, leider kein Erfolg. Vielleicht bist du beim n\u00e4chsten Versuch erfolgreich!",
+        "input": false,
+        "code": false,
+        "next": null
+    },
+    "322": {
+        "text": "Wandelemente sind 1 Meter breit. Gib die Nummer des Wandelements an (vom linken Rand der ausgew\u00e4hlten Wand gez\u00e4hlt), in das du das Loch sprengen willst.",
+        "input": false,
+        "code": true,
+        "next": 323,
+        "is_code": "*"
+    },
+    "331": {
+        "text": "331",
+        "input": 4,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 333,
+            "if_2": 333,
+            "if_3": 332,
+            "if_4": 332
+        }
+    },
+    "332": {
+        "text": "Du gehst in den entsprechenden Raum und bringst die Sprengschnur auf dem ausgew\u00e4hlten Wandelement an. Du stellst die Stoppuhr auf 60 Sekunden, gehst gem\u00fctlich in den Nachbarraum, h\u00e4ltst die Ohren zu und den Mund offen und wartest. \r\n\r\nPl\u00f6tzlich h\u00f6rst du einen dumpfen Knall und die Luft f\u00fcllt sich mit Staub. Du hustest kurz und wartest ein wenig, damit sich der Staub legt und du im Schein deiner Taschenlampe das Resultat begutachten kannst.\r\n\r\nNein, knapp daneben. Du siehst den Betonsockel des Zwischenbodens aus dem Treppenhaus durch dein frisch gesprengtes Loch. Vielleicht bist du beim n\u00e4chsten Versuch erfolgreich!",
+        "input": false,
+        "code": false,
+        "next": null
+    },
+    "323": {
+        "text": "Du gehst in den entsprechenden Raum und bringst die Sprengschnur auf dem ausgew\u00e4hlten Wandelement an. Du stellst die Stoppuhr auf 60 Sekunden, gehst gem\u00fctlich in den Nachbarraum, h\u00e4ltst die Ohren zu und den Mund offen und wartest. \r\n\r\nPl\u00f6tzlich h\u00f6rst du einen dumpfen Knall und die Luft f\u00fcllt sich mit Staub. Du hustest kurz und wartest ein wenig, damit sich der Staub legt und du im Schein deiner Taschenlampe das Resultat begutachten kannst.\r\n\r\nNein, leider kein Erfolg. Vielleicht bist du beim n\u00e4chsten Versuch erfolgreich!",
+        "input": false,
+        "code": false,
+        "next": null
+    },
+    "333": {
+        "text": "Du gehst in den entsprechenden Raum und bringst die Sprengschnur auf dem ausgew\u00e4hlten Wandelement an. Du stellst die Stoppuhr auf 60 Sekunden, gehst gem\u00fctlich in den Nachbarraum, h\u00e4ltst die Ohren zu und den Mund offen und wartest. \r\n\r\nPl\u00f6tzlich h\u00f6rst du einen dumpfen Knall und die Luft f\u00fcllt sich mit Staub. Du hustest kurz und wartest ein wenig, damit sich der Staub legt und du im Schein deiner Taschenlampe das Resultat begutachten kannst.\r\n\r\nSehr gut, das war Pr\u00e4zisionsarbeit! Ein rundes Loch, gerade gross genug, damit du durchkriechen kannst, f\u00fchrt ins Treppenhaus. Du kriechst durch und steigst die Treppe hoch.\r\n\r\nRaus hier!",
+        "input": false,
+        "code": false,
+        "next": null
+    },
+    "163": {
+        "text": "Du erreichst ein weiteres B\u00fcro. Dieser Raum misst 8 Meter auf 8 Meter. Es gibt einen riesigen Schreibtisch, auf dem ein schwerer Tresor steht. Zur Sicherheit nimmst du die Notiz, die mit dem Taschenmesser an der Wand befestigt war, noch einmal zur Hand:\r\n\r\n\"Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsel vorkommen.\\",
+        "input": false,
+        "code": true,
+        "next": 164,
+        "is_code": "423"
+    },
+    "164": {
+        "text": "Du stellst den Code ein und versuchst, den Stahlkoffer zu \u00f6ffnen. Es gelingt!\r\n\r\nIm Koffer liegt etwas, was wie ein aufgewickeltes St\u00fcck einer Schnur aus Plastik aussieht, mit einer Art Stoppuhr am Ende. Darunter liegt ein gelber Zettel mit einer Erkl\u00e4rung:\r\n\r\n\"Diese Sprengschnur kann verwendet werden, um ein Loch in eines der Betonwandelemente zu sprengen. Sie haftet selbst\u00e4ndig an der Wand, du musst sie nur an der gew\u00fcnschten Stelle in Form eines geschlossenen Kreises anbringen.\r\n\r\nZ\u00fcnden kannst du die Sprengschnur, indem du einen Countdown auf der Uhr einstellst. W\u00e4hle ausreichend Zeit, damit du in einem Nachbarraum in Deckung gehen kannst, halte die Ohren zu und den Mund offen!\r\n\r\nWarnung: Die Sprengkraft dieser Sprengschnur reicht nur f\u00fcr die Betonwandelemente aus. Die Stahlt\u00fcr und das Panzerglas, die das Treppenhaus zum Korridor hin begrenzen, sind zu stabil f\u00fcr diese kleine Menge Sprengstoff!\"\r\n\r\nDu gehst zur\u00fcck in den Korridor, um noch einmal das Treppenhaus zu betrachten.",
+        "input": false,
+        "code": true,
+        "next": 301,
+        "is_code": "201"
+    },
+    "201": {
+        "text": "Du \u00f6ffnest die T\u00fcr in Richtung Westen und erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\r\n\r\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.",
+        "input": false,
+        "code": false,
+        "next": 202
+    },
+    "202": {
+        "text": "Du erreichst ein weiteres B\u00fcro. Dieser Raum misst 8 Meter auf 8 Meter. Es gibt einen riesigen Schreibtisch, auf dem ein schwerer Tresor steht. Leider hast du keine Ahnung, was der Code ist.\r\n\r\nDu entscheidest, zur\u00fcck in den S\u00fcd-Nord-Korridor zu gehen und dort durch die T\u00fcr zu gehen, die 4 Meter entfernt vom s\u00fcdlichen Ende des Korridors nach Osten f\u00fchrt. Vielleicht findest du dort einen Hinweis auf den Code f\u00fcr den Tresor.",
+        "input": false,
+        "code": false,
+        "next": 203
+    },
+    "203": {
+        "text": "Du \u00f6ffnest im S\u00fcd-Nord-Korridor die T\u00fcr in Richtung Osten und erreichst einen Raum, der 8 Meter auf 8 Meter misst.\r\n\r\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Westwand, 4 Meter von der S\u00fcdwand entfernt. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest nur noch ein paar leere Tische.\r\n\r\n2 Meter von der Ostwand entfernt gibt es eine T\u00fcr in der Nordwand. Du gehst dort weiter.",
+        "input": false,
+        "code": false,
+        "next": 204
+    },
+    "204": {
+        "text": "204",
+        "input": false,
+        "code": false,
+        "next": 205
     }
 }

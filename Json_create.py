@@ -41,7 +41,7 @@ class The_Architect():
 	    if is_code: self.daten[index]["is_code"]=is_code
 
 	def translator(self,text):
-	    text=text.replace("__","\n")
+	    # text=text.replace("__","\n")
 	    text=text.replace("ä","\u00e4")
 	    text=text.replace("ö","\u00f6")
 	    text=text.replace("ü","\u00fc")

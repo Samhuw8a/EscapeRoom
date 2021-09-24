@@ -38,6 +38,7 @@ class Eventhandler():
         elif needscode: 
             #Testet ob der Code richtig ist
             iscode = frame["is_code"] # liest iscode ein
+            if iscode=="*": self.nextframe=next_f
             self.nextframe = next_f if render_output == iscode else index
                
         else:  
