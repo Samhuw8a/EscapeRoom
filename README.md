@@ -115,5 +115,5 @@ der Handler klasse aufgerufen die dann den Endscrenn zeigt und das spiel beendet
 # Meine Gedanken
 
 ## Was ich anderst machen würde:
-> IO und Logik besser trennen.
+### IO und Logik besser trennen.
 wenn ich das Projekt 
