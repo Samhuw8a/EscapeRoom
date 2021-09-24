@@ -115,5 +115,10 @@ der Handler klasse aufgerufen die dann den Endscrenn zeigt und das spiel beendet
 # Meine Gedanken
 
 ## Was ich anderst machen würde:
-### IO und Logik besser trennen.
-wenn ich das Projekt 
+- ### IO und Logik besser trennen.
+    Momentan übernimmt die Render klasse immer noch die Logik am input.
+    Wenn ich es neu schreiben könnte, dann würde ich das ganze input checking in die
+    Handler klasse verschieben.
+- ### Bessere Json Datei:
+    Die Json Datei hat momentan noch viele ungenutzte Var.
+    Das Layout der Json Datei ist auch noch nicht optimal.
