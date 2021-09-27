@@ -50,6 +50,19 @@
         "text": "Das ist Text 7",
         "input": false,
         "code": false,
-        "next": null
-    }
+        "next": 8
+    },
+	"8":{
+		"text": "Das ist Text 8",
+		"input": false,
+		"code": true,
+		"next": 9,
+		"is_code":"*"
+	},
+	"9":{
+		"text": "Das ist Text 9",
+		"input": false,
+		"code" : false,
+		"next": null
+	}
 }
