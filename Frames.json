@@ -250,5 +250,18 @@
         "code": true,
         "next": 209,
         "is_code": "423"
+    },
+    "209": {
+        "text": "Du stellst den Code ein und versuchst, die Tresort\\u00fcr zu \\u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\\r\\n\\r\\nDu hebst den Zettel auf und liest:\\r\\n\\r\\n\\\"The answer to life, the universe and everything.\\r\\nAusserdem der Code, mit dem du diesen Tresor ge\\u00f6ffnet hast.\\\"\\r\\n\\r\\nDu nimmst noch einmal die Notiz hervor, die du im L\\u00fcftungsschacht gefunden hast:\\r\\n\\r\\n\\\"Um den Code f\\u00fcr den Koffer zu finden, z\\u00e4hle unter allen Zahlen, die auf der Notiz im Tresor genannt werden:\\r\\n\\r\\n1. Wie oft die Ziffer 4 vorkommt.\\r\\n2. Wie oft die Ziffer 7 vorkommt.\\r\\n3. Wie oft die Ziffer 3 vorkommt.\\\"\\r\\n\\r\\nEasy, die erste genannte Zahl kennst du, weil du viel gelesen hast\",\" und den Tresor hast du ja gerade eben mit dem Code 423 ge\\u00f6ffnet.",
+        "input": false,
+        "code": true,
+        "next": 301,
+        "is_code": "201"
+    },
+    "22": {
+        "text": "Du befindest dich in einem Korridor, der von West nach Ost verl\u00e4uft. Er hat eine L\u00e4nge von 20 Meter und ist 4 Meter breit.\r\n\r\nIm S\u00fcden gibt es westlich von der T\u00fcr, durch die du gekommen bist, eine weitere T\u00fcr und \u00f6stlich drei weitere T\u00fcren. Sie sind alle verschlossen, aber du kannst durch die Glasscheiben hineinblicken. Du erkennst, dass hinter jeder T\u00fcr ein Raum liegt, der identisch mit deinem Startraum ist. Die Ostwand des \u00f6stlichsten Raums ist die gleiche Wand wie die Ostwand des Korridors. Auch die Westwand des westlichsten Raums und die Westwand des Korridors sind identisch.\r\n\r\nIm Norden gibt es genau gegen\u00fcber der T\u00fcr zu deinem Startraum und westlich davon je einen weiteren identischen R\u00e4um. Auch diese haben je eine T\u00fcre in der Wandmitte mit einer Glasscheibe - leider sind auch sie verschlossen.\r\n\r\nIn der Mitte der Nordwand hat der Korridor eine weitere T\u00fcr, die nicht verschlossen ist. Also gehst du da weiter.",
+        "input": false,
+        "code": false,
+        "next": 31
     }
 }
