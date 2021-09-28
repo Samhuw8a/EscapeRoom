@@ -263,5 +263,17 @@
         "input": false,
         "code": false,
         "next": 31
+    },
+    "321": {
+        "text": "In welcher Wand befindet sich das Wandelement, in das du das Loch sprengen willst?\r\n\r\n1. Nordwand\r\n2. Ostwand\r\n3. S\u00fcdwand\r\n4. Westwand",
+        "input": 4,
+        "code": false,
+        "next": null,
+        "ifs": {
+            "if_1": 322,
+            "if_2": 322,
+            "if_3": 322,
+            "if_4": 322
+        }
     }
 }

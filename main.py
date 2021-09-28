@@ -8,7 +8,7 @@ def main():
     handler=Eventhandler(render_eng,"Escaperoom Samuel")
     
     #ladet die frames aus der json datei in das backend
-    handler.impjson("Test.json")
+    handler.impjson("Tools/Test.json")
     handler.loadframe(3)
 
     #Haupt schliefe
