@@ -4,6 +4,27 @@
 Dies ist ein Text basiertes Game welches in python geschrieben wurde und die Frames im Json format speichert.
 Dieses Projekt ist ein Projekt welches wir im Informatik geschrieben haben.
 In diesem README werde ich die Struktur des Programmes zeigen.
+
+# Gebrauch
+
+Die main datei kann mit einem -v2 zur `rich` Render klasse wechselt.
+Das `rich` Modul ist ein Modul ist perfekt zum stylen von Text. in diesem fall
+wird Der Titel, der Text und die Error visuel auseinander gehalten.
+
+## Ausführen
+Wenn man Farbigen Text will braucht man das `rich` Modul. Es funktioniert aber auch ohne.
+
+>Startet main im V2 modus (benötigt `rich`)
+
+```bash
+python3 main.py -v2
+```
+
+> Startet main im normalen modus
+```bash
+python3 main.py
+```
+
 # Die Struktur:
 Als ertste habe ich mich mit der Struktur des Programms auseinander
 gesetzt. Ich habe das Projekt in Drei Teile Aufgeteilt. 
@@ -16,6 +37,8 @@ gesetzt. Ich habe das Projekt in Drei Teile Aufgeteilt.
 ## Front_end:
 Das Projekt hat ein Front_end das die Frames formatiert auf den Bildschirm
 bringt. Die datei hat eine Klasse Render() die beinhaltet:
+Der is_v2 bool der wenn True Die Print funktion mit der `rich` console.print()
+funktion ersetzt
 
 - eine render methode zuständig für den outut und input 
 - eine animation methode die den Text animiert
@@ -23,7 +46,7 @@ bringt. Die datei hat eine Klasse Render() die beinhaltet:
 
 ```python
 class Render():
-    def __init__(self):
+    def __init__(self,is_v2):
         #"globale Var"
 
     def animation(self,text):
