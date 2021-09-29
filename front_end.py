@@ -5,6 +5,20 @@ from time import sleep
 import platform
 
 class Render():
+
+    def __init__(self,is_v2=False):
+        self.is_v2= is_v2
+        if is_v2:
+            from rich.console import Console
+            from rich.theme import Theme
+            self.cust_theme=Theme({
+                        "text":"italic",
+                        "titel": "bold underline green",
+                        "Error" : "bold red"
+                    })
+
+            self.console=Console(theme=self.cust_theme)
+
     @staticmethod
     def clean():
         #klärt das Terminal
@@ -13,6 +27,14 @@ class Render():
             system('cls')
         else:
             system('clear')
+
+    @staticmethod
+    def print(self,text,typ="text"):
+        if self.is_v2:
+            self.console.print(text,style=typ)
+
+        else:
+            print(text)
 
     @staticmethod
     def animation(text,time):
@@ -41,8 +63,8 @@ class Render():
     def render(self,titel,text,needsinput,needscode):
         #Rendert einen Frame
         self.clean()
-        print (titel)
-        print ("\n")
+        self.print (self,titel,"titel")
+        self.print (self,"\n")
         self.animation(text,0.025)
 
         while True:
@@ -58,7 +80,7 @@ class Render():
                     return None
 
             except ValueError:
-                print ("Du hast einen Fehler gemacht.")
+                self.print (self,"Du hast einen Fehler gemacht.","Error")
 
             except KeyboardInterrupt:
                 self.end_screen()
