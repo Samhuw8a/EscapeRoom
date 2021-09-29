@@ -97,28 +97,10 @@ Die Json datei ist so gestaltet:
 |[front_end.py](front_end.py)|verantwortlich für den output und den User input|
 |[Frames.json](Frames.json)|speichert die Frames mit allen informationen|
 
-# Der Game ablauf:
-### main:
-In der main datei werden Render Klasse und Handle Klasse instanziert.
-> **setup**:
-- als erstes wird die imp_json method der Handler klasse aufgerufen
-um Frames.json zu laden
-- Dann wird Frame 0 geladen
-> **main loop**
-- Der main loop ist eine Endlosschlaufe die erst aufhört, wenn es keine next_frame mer gibt.
-> **ende**
-- am ende des main loop wird die end_screen method
-der Handler klasse aufgerufen die dann den Endscrenn zeigt und das spiel beendet.
-
-
-
-# Meine Gedanken:
-
-## Was ich anderst machen würde:
-- ### IO und Logik besser trennen.
-    Momentan übernimmt die Render klasse immer noch die Logik am input.
-    Wenn ich es neu schreiben könnte, dann würde ich das ganze input checking in die
-    Handler klasse verschieben.
-- ### Bessere Json Datei:
-    Die Json Datei hat momentan noch viele ungenutzte Var.
-    Das Layout der Json Datei ist auch noch nicht optimal.
+# Die "Entwickler-Tools":
+Das Projekt hat auch "Tools" um verschiedene Aspekte
+zu testen oder die Json dateien zu schreiben.
+Zu diesen Tools gehören:
+- [Test.json]("Test.json")
+- [Json_create]("Json_create.py")
+- [Frame_tester]("Frame_tester,py")
