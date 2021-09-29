@@ -101,6 +101,6 @@ Die Json datei ist so gestaltet:
 Das Projekt hat auch "Tools" um verschiedene Aspekte
 zu testen oder die Json dateien zu schreiben.
 Zu diesen Tools gehören:
-- [Test.json]("Test.json")
-- [Json_create]("Json_create.py")
-- [Frame_tester]("Frame_tester,py")
+- [Test.json](Test.json)
+- [Json_create](Json_create.py)
+- [Frame_tester](Frame_tester,py)
