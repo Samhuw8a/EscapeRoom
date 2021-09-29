@@ -104,3 +104,22 @@ Zu diesen Tools gehören:
 - [Test.json]("Test.json")
 - [Json_create]("Json_create.py")
 - [Frame_tester]("Frame_tester,py")
+
+## Test.json:
+Die Test.json Datei ist genau wie Frames.json aufgebaut.
+Hat aber nur 9 Frames die alle atribute "Testen".
+Diese Datei Wird zum Testen der front und back -end Dateinen Benötigt
+Es ist viel einfacher probleme zu finden, wenn man alles möglichst simple hält.
+
+## Frame_tester:
+Die Frame_tester Datei dient dazu den Text zu kontrolieren.
+Die Datei gibt den index und den Text jedes Textes einer Kompatiblen Json-datei
+aus. Die Json-datei wird im als erstes Argument der Datei einglesen.
+```bash
+python3 ./Frame_tester.py Json-datei
+```
+
+## Json_create:
+Die Json_create Datei schreibt eine Kompatible Json datei oder Erweitert eine
+bereits existierende Datei.
+Mit dieser Datei ist es viel einfacher eine kompatible Json-datei zu schreiben.
