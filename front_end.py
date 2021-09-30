@@ -7,8 +7,11 @@ import platform
 class Render():
 
     def __init__(self,is_v2=False):
+
         self.is_v2= is_v2
+
         if is_v2:
+            #Import von rich
             from rich.console import Console
             from rich.theme import Theme
             self.cust_theme=Theme({
@@ -16,7 +19,6 @@ class Render():
                         "titel": "bold underline green",
                         "Error" : "bold red"
                     })
-
             self.console=Console(theme=self.cust_theme)
 
     @staticmethod
