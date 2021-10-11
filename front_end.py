@@ -12,14 +12,24 @@ class Render():
 
         if is_v2:
             #Import von rich
-            from rich.console import Console
-            from rich.theme import Theme
-            self.cust_theme=Theme({
-                        "text":"italic",
-                        "titel": "bold underline green",
-                        "Error" : "bold red"
-                    })
-            self.console=Console(theme=self.cust_theme)
+            try:
+                from rich.console import Console
+                from rich.theme import Theme
+                self.cust_theme=Theme({
+                            "text":"italic",
+                            "titel": "bold underline green",
+                            "Error" : "bold red"
+                        })
+                self.console=Console(theme=self.cust_theme)
+            except ModuleNotFoundError:
+                #Hilfe wenn rich nicht importiert ist
+                print("""
+                        ERROR: um --v2 benötigt das `rich` Modul 
+                        gibt:
+                            pip3 install rich
+                        um das pip modul zu instalieren und versuche es nochmal
+                        """,file=sys.stderr)
+                exit(1)
 
     @staticmethod
     def clean():

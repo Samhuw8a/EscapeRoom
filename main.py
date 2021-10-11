@@ -6,12 +6,11 @@ def main():
 
     #setup
 
-    #Prüfen ob -v2 angegeben wird
-    try:
-        if sys.argv [1] =="-v2":
+    #Prüfen ob --v2 angegeben wird
+    if "--v2" in sys.argv:
             is_v2=True
 
-    except: is_v2=False
+    else: is_v2=False
 
     render_eng = Render(is_v2)
     handler=Eventhandler(render_eng,"Escaperoom Samuel")
