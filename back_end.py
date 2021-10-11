@@ -1,5 +1,4 @@
 import json
-
 class Eventhandler():
 
     def __init__(self, render_eng,titel,framesraw=None):
@@ -27,20 +26,22 @@ class Eventhandler():
         #speichert den render output
         render_output= self.render_eng.render(self.titel,text,needsinput,needscode)
 
+        #Evaluieren des Output
         if needsinput: 
-            #setzt den nächsten frame
             ifs=frame["ifs"] #liest ifs ein
-            for i,j in enumerate(ifs): #geht durch alle ifs und entscheidet was slef.nextframe ist
+            for i,j in enumerate(ifs): #geht durch alle ifs und entscheidet was self.nextframe ist
                 if render_output ==i+1:
                     self.nextframe = ifs[j] 
-                    break
 
         elif needscode: 
             #Testet ob der Code richtig ist
             iscode = frame["is_code"] # liest iscode ein
             if iscode=="*": 
+                # Wenn is_code '*' ist dann wird jerder code weitergeleitet
                 self.nextframe=next_f
             else:
+                #Wenn der Code stimmt wird der user weitergeleitet. 
+                #Wenn der Code nicht richtig ist dann wird der user zum gleichen Frame weitergeleitet
                 self.nextframe = next_f if render_output == iscode else index
                
         else:  
@@ -54,8 +55,8 @@ class Eventhandler():
             self.loadframe(self.nextframe)
 
         #return für den main loop
-        else: return False
-        return True
+            return True
+        return False
 
     def end_game(self):
         #endet das game

@@ -5,11 +5,10 @@ from time import sleep
 import platform
 
 class Render():
-
     def __init__(self,is_v2=False):
-
         self.is_v2= is_v2
 
+    def __post_init__(self):
         if is_v2:
             #Import von rich
             try:
@@ -21,6 +20,7 @@ class Render():
                             "Error" : "bold red"
                         })
                 self.console=Console(theme=self.cust_theme)
+
             except ModuleNotFoundError:
                 #Hilfe wenn rich nicht importiert ist
                 print("""
@@ -40,24 +40,28 @@ class Render():
         else:
             system('clear')
 
+    # die 'schlaue' print Funktion
     @staticmethod
     def print(self,text,typ="text"):
+        # Wenn self.if_v2 true ist wird die console.print funktion benutzt
+        # Wenn self.if_v3 false ist dann wird die inbuilt print() funktion benutzt
         if self.is_v2:
             self.console.print(text,style=typ)
-
         else:
             print(text)
 
+    #Animiert den Text
     @staticmethod
     def animation(text,time):
-        #Animiert den Text
+        #Text animation mit der stdout.wirte() methode und time.sleep()
         for char in text:
             sys.stdout.write(char)
             sys.stdout.flush ()
             sleep (time)
 
+    #Gibt den Lade screen aus
     def load_screen(self):
-        #Gibt den Lade screen aus
+        #Ein Animierter Loadscreen
         self.clean()
         sleep(0.1)
         for _ in range(2):
@@ -65,20 +69,25 @@ class Render():
             self.clean()
         sleep(0.2)
 
+    # der End_screen des Spiel
     def end_screen(self):
-        # der End_screen des Spiel
         try:
             self.clean()
             self.animation("Ein Informatik projekt von Samuel Huwiler\n\t Vielen Dank für spielen.\n", 0.1)
-        except KeyboardInterrupt: exit()
+        except KeyboardInterrupt:
+            exit()
     
+    #Rendert einen Frame
     def render(self,titel,text,needsinput,needscode):
-        #Rendert einen Frame
+        
+        #Titel un Text
         self.clean()
         self.print (self,titel,"titel")
         self.print (self,"\n")
         self.animation(text,0.025)
 
+        #Printet den Code oder den Input
+        #Und returnt die Informationen für das Backend
         while True:
             try:
                 if needsinput:         
@@ -98,3 +107,5 @@ class Render():
                 self.end_screen()
                 exit()
 
+if __name__== '__main__':
+    test= Render(True)

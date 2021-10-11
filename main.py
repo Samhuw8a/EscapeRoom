@@ -1,7 +1,7 @@
 from front_end import Render
 from back_end import Eventhandler
-
 import sys
+
 def main():
 
     #setup
@@ -12,6 +12,7 @@ def main():
 
     else: is_v2=False
 
+    #Instanzieren der front und back_end Klassen
     render_eng = Render(is_v2)
     handler=Eventhandler(render_eng,"Escaperoom Samuel")
     
