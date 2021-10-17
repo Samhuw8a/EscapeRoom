@@ -5,8 +5,8 @@ from time import sleep
 import platform
 
 class Render():
-    def __init__(self,is_v2=False):
-        self.is_v2= is_v2
+    def __init__(self,is_v2 : bool = False):
+        self.is_v2 : bool= is_v2
 
     def __post_init__(self):
         if is_v2:
@@ -52,7 +52,7 @@ class Render():
 
     #Animiert den Text
     @staticmethod
-    def animation(text,time):
+    def animation(text,time : int):
         #Text animation mit der stdout.wirte() methode und time.sleep()
         for char in text:
             sys.stdout.write(char)
@@ -78,7 +78,7 @@ class Render():
             exit()
     
     #Rendert einen Frame
-    def render(self,titel,text,needsinput,needscode):
+    def render(self,titel :str,text: str,needsinput :bool,needscode: bool)-> str:
         
         #Titel un Text
         self.clean()
@@ -97,12 +97,11 @@ class Render():
                     return input("\nWas ist der Code? ")
 
                 else:
-                    input()
-                    return None
+                    return input()
 
+            #Excepion handling
             except ValueError:
-                self.print (self,"Du hast einen Fehler gemacht.","Error")
-
+                self.print (self,"Bitte gib deine Antwort um richtigen Format an.","Error")
             except KeyboardInterrupt:
                 self.end_screen()
                 exit()

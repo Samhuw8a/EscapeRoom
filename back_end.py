@@ -1,27 +1,27 @@
 import json
 class Eventhandler():
 
-    def __init__(self, render_eng,titel,framesraw=None):
+    def __init__(self, render_eng ,titel : str ,framesraw : list =None):
         #setzt die "globalen" Variablen
         self.framesraw = framesraw
         self.nextframe = None
         self.render_eng = render_eng
         self.titel=titel
     
-    def impjson(self,path):
+    def impjson(self,path : str):
         #Ladet Die Frames aus einer Json Datei.
         with open(path) as jsondata:
             self.framesraw = json.load(jsondata)
     
-    def loadframe(self,index):
+    def loadframe(self,index : int):
         #Ladet die Inf. des Frame und entscheidet was der mächste Frame ist.
         frame= self.framesraw[str(index)]
 
         #Liest alle Var aus die immer existieren
-        text = frame["text"]
-        needsinput = frame["input"]
-        needscode = frame["code"]
-        next_f = frame["next"]
+        text : str= frame["text"]
+        needsinput : bool = frame["input"]
+        needscode : bool = frame["code"]
+        next_f : int = frame["next"]
 
         #speichert den render output
         render_output= self.render_eng.render(self.titel,text,needsinput,needscode)
@@ -48,7 +48,7 @@ class Eventhandler():
             #testet ob es das ende ist. (siehe loadnextframe())
             self.nextframe=next_f if next_f else None
 
-    def loadnextframe(self):
+    def loadnextframe(self) -> bool:
         #Ladet den nächsten Frame
         if self.nextframe:
             self.render_eng.load_screen()
