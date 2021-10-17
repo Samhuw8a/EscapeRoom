@@ -1,4 +1,4 @@
 *.pyc
 *.swp
-.swp
+./.swp
 ./__pycache__

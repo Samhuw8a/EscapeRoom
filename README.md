@@ -5,6 +5,16 @@ Dies ist ein Text basiertes Game welches in python geschrieben wurde und die Fra
 Dieses Projekt ist ein Projekt welches wir im Informatik geschrieben haben.
 In diesem README werde ich die Struktur des Programmes zeigen.
 
+# Quick Start
+- Modul im v2 modus (benötigt `rich`)
+```sh
+python3 main.py --v2
+```
+- Modul im legacy modus (keine zusätzlichen packages benötigt)
+```sh
+python3 main.py 
+```
+
 # Gebrauch
 
 Die main datei kann mit einem -v2 zur `rich` Render klasse wechselt.
@@ -14,7 +24,7 @@ wird Der Titel, der Text und die Error visuel auseinander gehalten.
 ## Ausführen
 Wenn man Farbigen Text will braucht man das `rich` Modul. Es funktioniert aber auch ohne.
 
->Startet main im V2 modus (benötigt `rich`)
+> Startet main im V2 modus (benötigt `rich`)
 
 ```bash
 python3 main.py -v2
