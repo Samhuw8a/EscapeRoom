@@ -74,10 +74,16 @@
     "111": {
         "text": "Du gehst zur\u00fcck in den Korridor, der von S\u00fcden nach Norden verl\u00e4uft und da durch die T\u00fcr, die vier Meter vom n\u00f6rdlichen Ende des Korridors entfernt nach Westen f\u00fchrt.\n\nDu erreichst einen Raum, der 8 Meter auf 8 Meter misst. Es scheint sich um ein B\u00fcro gehandelt zu haben, aber du findest hier nur noch einen Tisch mit einer verstaubten Underwood-Schreibmaschine. Sch\u00f6n, aber nicht hilfreich.\n\nDie T\u00fcr, durch die du gekommen bist, befindet sich in der Ostwand, vier Meter von der Nordwand entfernt. Du gehst durch die andere T\u00fcr, die sich in der Mitte der S\u00fcdwand befindet.\n",
         "input": false,
+        "code": false,
+        "next": 112
+    },
+	"112":{
+		"text": "Du erreichst ein weiteres B\u00fcro. Dieser Raum misst 8 Meter auf 8 Meter. Es gibt einen riesigen Schreibtisch, auf dem ein schwerer Tresor steht. Zur Sicherheit nimmst du die Notiz, die mit dem Taschenmesser an der Wand befestigt war, noch einmal zur Hand:\r\n\r\n'Der Code zum Tresor ergibt sich aus der Zahl der F\u00fcsse im R\u00e4tsel der Sphinx, in der Reihenfolge, wie sie im R\u00e4tsl vorkommen.'",
+        "input": false,
         "code": true,
         "next": 113,
         "is_code": "423"
-    },
+	},
     "113": {
         "text": "Du stellst den Code ein und versuchst, die Tresort\u00fcr zu \u00f6ffnen. Lautlos schwingt sie auf und ein gelber Zettel flattert aus dem Tresor. Abgesehen davon ist der Tresor leer.\n\nDu hebst den Zettel auf und liest:\n\n\"The answer to life, the universe and everything.\nAusserdem der Code, mit dem du diesen Tresor ge\u00f6ffnet hast.\"\n\nDu bist nicht so sicher, was du damit anfangen sollst. Deshalb entscheidest du dich, noch die Notiz im L\u00fcftungsschacht zu holen.\n",
         "input": false,
