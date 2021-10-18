@@ -7,9 +7,10 @@ import platform
 class Render():
     def __init__(self,is_v2 : bool = False):
         self.is_v2 : bool= is_v2
+        self.check_args()
 
-    def __post_init__(self):
-        if is_v2:
+    def check_args(self):
+        if self.is_v2:
             #Import von rich
             try:
                 from rich.console import Console
@@ -19,7 +20,7 @@ class Render():
                             "titel": "bold underline green",
                             "Error" : "bold red"
                         })
-                self.console=Console(theme=self.cust_theme)
+                self.console= Console(theme=self.cust_theme)
 
             except ModuleNotFoundError:
                 #Hilfe wenn rich nicht importiert ist

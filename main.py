@@ -8,7 +8,7 @@ def main():
 
     #Prüfen ob --v2 angegeben wird
     if "--v2" in sys.argv:
-            is_v2=True
+        is_v2=True
 
     else: is_v2=False
 
