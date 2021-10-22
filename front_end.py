@@ -12,8 +12,9 @@ class Render():
 
     def check_args(self):
         if self.hiden:
+            global getpass
             from getpass import getpass
-            self.getpass = getpass
+            #  self.getpass = getpass
         if self.is_v2:
             #Import von rich
             try:
@@ -48,8 +49,7 @@ class Render():
     # die 'schlaue' passwort Funktion
     def inppass(self,prt:str):
         if self.hiden:
-            #  getpass("Test")
-            return self.getpass(prt)
+            return getpass(prt)
         else:
             return input(prt)
 
