@@ -7,13 +7,16 @@ def main():
     #setup
 
     #Prüfen ob --v2 angegeben wird
+    if "-h" in sys.argv:
+        hiden=True
+    else: hiden=False
+
     if "--v2" in sys.argv:
         is_v2=True
-
     else: is_v2=False
 
     #Instanzieren der front und back_end Klassen
-    render_eng = Render(is_v2)
+    render_eng = Render(is_v2,hiden)
     handler=Eventhandler(render_eng,"Escaperoom Samuel")
     
     #ladet die frames aus der json datei in das backend

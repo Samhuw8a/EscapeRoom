@@ -5,11 +5,15 @@ from time import sleep
 import platform
 
 class Render():
-    def __init__(self,is_v2 : bool = False):
+    def __init__(self,is_v2 : bool = False ,hiden : bool = False):
         self.is_v2 : bool= is_v2
+        self.hiden : bool= hiden
         self.check_args()
 
     def check_args(self):
+        if self.hiden:
+            from getpass import getpass
+            self.getpass = getpass
         if self.is_v2:
             #Import von rich
             try:
@@ -40,6 +44,14 @@ class Render():
             system('cls')
         else:
             system('clear')
+
+    # die 'schlaue' passwort Funktion
+    def inppass(self,prt:str):
+        if self.hiden:
+            #  getpass("Test")
+            return self.getpass(prt)
+        else:
+            return input(prt)
 
     # die 'schlaue' print Funktion
     @staticmethod
@@ -95,7 +107,7 @@ class Render():
                     return int(input(f"\n{[i+1 for i in range(needsinput)]}: "))
                        
                 elif needscode:
-                    return input("\nWas ist der Code? ")
+                    return self.inppass("\nWas ist der Code? ")
 
                 else:
                     return input()
@@ -108,4 +120,6 @@ class Render():
                 exit()
 
 if __name__== '__main__':
+    from getpass import getpass
+    getpass("Test")
     test= Render(True)
