@@ -1,4 +1,5 @@
 #Importiert die benutzten packages
+from typing import Union
 from os import system
 import sys
 from time import sleep
@@ -47,7 +48,7 @@ class Render():
             system('clear')
 
     # die 'schlaue' passwort Funktion
-    def inppass(self,prt:str):
+    def inp_password(self,prt:str):
         if self.hiden:
             return getpass(prt)
         else:
@@ -65,7 +66,7 @@ class Render():
 
     #Animiert den Text
     @staticmethod
-    def animation(text,time : int):
+    def animation(text,time : float):
         #Text animation mit der stdout.wirte() methode und time.sleep()
         for char in text:
             sys.stdout.write(char)
@@ -85,13 +86,13 @@ class Render():
     # der End_screen des Spiel
     def end_screen(self):
         try:
-            self.clean()
+            self.cleat()
             self.animation("Ein Informatik projekt von Samuel Huwiler\n\t Vielen Dank für spielen.\n", 0.1)
         except KeyboardInterrupt:
             exit()
     
     #Rendert einen Frame
-    def render(self,titel :str,text: str,needsinput :bool,needscode: bool)-> str:
+    def render(self,titel :str,text: str,needsinput :bool,needscode: bool)-> Union[str,int]:
         
         #Titel un Text
         self.clean()
@@ -107,7 +108,7 @@ class Render():
                     return int(input(f"\n{[i+1 for i in range(needsinput)]}: "))
                        
                 elif needscode:
-                    return self.inppass("\nWas ist der Code? ")
+                    return self.inp_password("\nWas ist der Code? ")
 
                 else:
                     return input()
