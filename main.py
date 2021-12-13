@@ -3,7 +3,6 @@ from back_end import Eventhandler
 import sys
 
 def main():
-
     #setup
     #  Prüfung von argv
     hiden = True if "-h" in sys.argv else False

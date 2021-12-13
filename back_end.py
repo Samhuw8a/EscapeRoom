@@ -1,10 +1,11 @@
 import json
-class Eventhandler():
+from typing import Optional
 
-    def __init__(self, render_eng ,titel : str ,framesraw : list =None):
+class Eventhandler():
         #setzt die "globalen" Variablen
+    def __init__ (self,render_eng,titel,framesraw = None)-> None:
         self.framesraw = framesraw
-        self.nextframe = None
+        self.nextframe: Optional[int] = None
         self.render_eng = render_eng
         self.titel=titel
     
@@ -21,7 +22,7 @@ class Eventhandler():
         text : str= frame["text"]
         needsinput : bool = frame["input"]
         needscode : bool = frame["code"]
-        next_f : int = frame["next"]
+        next_f : Optional[int] = frame["next"]
 
         #speichert den render output
         render_output= self.render_eng.render(self.titel,text,needsinput,needscode)
@@ -35,8 +36,8 @@ class Eventhandler():
 
         elif needscode: 
             #Testet ob der Code richtig ist
-            iscode = frame["is_code"] # liest iscode ein
-            if iscode=="*": 
+            iscode:str = frame["is_code"] # liest iscode ein
+            if iscode  =="*": 
                 # Wenn is_code '*' ist dann wird jerder code weitergeleitet
                 self.nextframe=next_f
             else:
