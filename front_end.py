@@ -65,13 +65,17 @@ class Render():
             print(text)
 
     #Animiert den Text
-    @staticmethod
-    def animation(text:str ,time:float)-> None:
+    #  @staticmethod
+    def animation(self,text:str ,time:float)-> None:
         #Text animation mit der stdout.wirte() methode und time.sleep()
-        for char in text:
-            sys.stdout.write(char)
-            sys.stdout.flush ()
-            sleep (time)
+        try:
+            for char in text:
+                sys.stdout.write(char)
+                sys.stdout.flush ()
+                sleep (time)
+        except KeyboardInterrupt:
+            self.end_screen()
+            exit()
 
     #Gibt den Lade screen aus
     def load_screen(self)-> None:
@@ -97,7 +101,7 @@ class Render():
         self.clean()
         self.print (self,titel,"titel")
         self.print (self,"\n")
-        self.animation(text,0.025)
+        self.animation(text,0.01)
         #Printet den Code oder den Input
         #Und returnt die Informationen für das Backend
         while True:

@@ -1,2 +1,2 @@
 main:
-	python3 main.py
+	python3 main.py --v2

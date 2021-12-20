@@ -12,7 +12,7 @@ def main():
     render_eng = Render(is_v2,hiden)
     handler=Eventhandler(render_eng,"Escaperoom Samuel")
     #  ladet die frames aus der json datei in das backend
-    handler.impjson("Test.json")
+    handler.impjson("Frames.json")
     handler.loadframe(0)
 
     #Haupt schliefe
