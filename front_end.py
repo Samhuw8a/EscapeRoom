@@ -41,9 +41,9 @@ class Render():
         else:
             system('clear')
 
-    # die 'schlaue' print Funktion
     @staticmethod
     def print(self,text,typ="text"):
+        # die 'schlaue' print Funktion
         # Wenn self.if_v2 true ist wird die console.print funktion benutzt
         # Wenn self.if_v3 false ist dann wird die inbuilt print() funktion benutzt
         if self.is_v2:
@@ -80,7 +80,6 @@ class Render():
     
     #Rendert einen Frame
     def render(self,titel :str,text: str,needsinput :bool,needscode: bool)-> str:
-        
         #Titel un Text
         self.clean()
         self.print (self,titel,"titel")
