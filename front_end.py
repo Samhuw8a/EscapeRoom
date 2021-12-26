@@ -1,4 +1,3 @@
-#Importiert die benutzten packages
 from typing import Union
 from os import system
 import sys

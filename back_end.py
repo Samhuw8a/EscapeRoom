@@ -2,7 +2,6 @@ import json
 from typing import Optional
 
 class Eventhandler():
-        #setzt die "globalen" Variablen
     def __init__ (self,render_eng,titel,framesraw = None)-> None:
         self.framesraw = framesraw
         self.nextframe: Optional[int] = None
@@ -10,12 +9,12 @@ class Eventhandler():
         self.titel=titel
     
     def impjson(self,path : str):
-        #Ladet Die Frames aus einer Json Datei.
+        """ladet die Frames aus der json Datei"""
         with open(path) as jsondata:
             self.framesraw = json.load(jsondata)
     
     def loadframe(self,index : int):
-        #Ladet die Inf. des Frame und entscheidet was der mächste Frame ist.
+        """Ladet die Inf. des Frame und entscheidet was der mächste Frame ist."""
         frame= self.framesraw[str(index)]
 
         #Liest alle Var aus die immer existieren
@@ -50,7 +49,7 @@ class Eventhandler():
             self.nextframe=next_f if next_f else None
 
     def loadnextframe(self) -> bool:
-        #Ladet den nächsten Frame
+        """Ladet den nächsten Frame"""
         if self.nextframe:
             self.render_eng.load_screen()
             self.loadframe(self.nextframe)
@@ -60,6 +59,6 @@ class Eventhandler():
         return False
 
     def end_game(self):
-        #endet das game
+        """endet das Game"""
         self.render_eng.end_screen()
 
