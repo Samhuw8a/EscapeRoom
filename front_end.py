@@ -21,8 +21,8 @@ class Render():
                 from rich.console import Console
                 from rich.theme import Theme
                 self.cust_theme=Theme({
-                            "text":"italic",
-                            "titel": "bold underline green",
+                            "text"  : "italic",
+                            "titel" : "bold underline green",
                             "Error" : "bold red"
                         })
                 self.console= Console(theme=self.cust_theme)
@@ -56,15 +56,12 @@ class Render():
     # die 'schlaue' print Funktion
     @staticmethod
     def print(self,text:str,typ:str="text")-> None:
-        # Wenn self.if_v2 true ist wird die console.print funktion benutzt
-        # Wenn self.if_v2 false ist dann wird die inbuilt print() funktion benutzt
         if self.is_v2:
             self.console.print(text,style=typ)
         else:
             print(text)
 
     #Animiert den Text
-    #  @staticmethod
     def animation(self,text:str ,time:float)-> None:
         #Text animation mit der stdout.wirte() methode und time.sleep()
         try:
@@ -90,7 +87,7 @@ class Render():
     def end_screen(self)-> None:
         try:
             self.clean()
-            self.animation("Ein Informatik projekt von Samuel Huwiler\n\t Vielen Dank für spielen.\n", 0.1)
+            self.animation("\nEin Informatik projekt von Samuel Huwiler\n\t Vielen Dank für spielen.\n", 0.06)
         except KeyboardInterrupt:
             exit()
     
@@ -98,19 +95,21 @@ class Render():
     def render(self,titel :str,text: str,needsinput :bool,needscode: bool)-> Union[str,int]:
         #Titel un Text
         self.clean()
-        self.print (self,titel,"titel")
-        self.print (self,"\n")
-        self.animation(text,0.01)
+        self.print (self,"\n"+titel+"\n","titel")
+        self.animation(text,0.009)
         #Printet den Code oder den Input
         #Und returnt die Informationen für das Backend
         while True:
             try:
                 if needsinput:         
                     return int(input(f"\n{[i+1 for i in range(needsinput)]}: "))
+
                 elif needscode:
                     return self.inp_password("\nWas ist der Code? ")
+
                 else:
                     return input()
+
             #Excepion handling
             except ValueError:
                 self.print (self,"Bitte gib deine Antwort um richtigen Format an.","Error")
