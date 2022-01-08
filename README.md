@@ -17,9 +17,11 @@ python3 main.py
 
 # Gebrauch
 
-Die main datei kann mit einem -v2 zur `rich` Render klasse wechselt.
+Die main datei kann mit einem --v2 zur `rich` Render klasse wechselt.
 Das `rich` Modul ist ein Modul ist perfekt zum stylen von Text. in diesem fall
 wird Der Titel, der Text und die Error visuel auseinander gehalten.
+
+Ein Hilfe fenster wird mit -h oder --help aufgerufen
 
 ## Ausführen
 Wenn man Farbigen Text will braucht man das `rich` Modul. Es funktioniert aber auch ohne.
